@@ -15,7 +15,6 @@ def enc(m, key) :
                 continue
     print("Cipher text is: ", cipher_text)
 
-
 message = "This is an example of transposition cipher"
 key = "hack"
 enc(message, key)
