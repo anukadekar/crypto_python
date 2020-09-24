@@ -14,4 +14,3 @@ def enc(message, key) :
 message = "This is multiplicative cipher"
 key = 71678999
 enc(message, key)
-
