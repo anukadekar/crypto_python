@@ -1,4 +1,18 @@
-This is a set of programs to get familiarized with topics of cryptoraphy along with python.
+Cryptoraphy programs coded in python.
+
+1.Affine cipher
+2.Atbash cipher
+3.Ceaser cipher
+4.Transposition cipher
+5.Hill cipher
+6.Monoalphabetic cipher
+7.Multiplicative cipehr
+8.Reverse cipher
+9.Rot13 cipher
+10.Substitution cipher
+11.XOR cipher
+12.Feistel cipher
+
 Reference:
   https://www.tutorialspoint.com/cryptography_with_python
   https://www.tutorialspoint.com/cryptography
