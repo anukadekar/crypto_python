@@ -47,7 +47,7 @@ def dec(cipher_text, key) :
 
 
 message = "This is keyword cipher example"
-key = "secretkey"
+key = "secret"
 k = genkey(key)
 cipher_text = enc(message, k)
 dec(cipher_text, k)
