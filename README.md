@@ -12,6 +12,8 @@ Cryptoraphy programs coded in python.
 10.Substitution cipher
 11.XOR cipher
 12.Feistel cipher
+13.Vigenere cipher
+14.Keyword cipher
 
 Reference:
   https://www.tutorialspoint.com/cryptography_with_python
