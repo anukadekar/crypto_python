@@ -1,5 +1,3 @@
-##Need to be changed##
-
 from string import ascii_letters
 
 
@@ -35,12 +33,7 @@ def enc(message, keymatrix) :
     return (''.join(cipher_text))
 
 
-def dec(cipher_text, keym) :
-    print(cipher_text)
-
-
 message = "THIS IS HILL CIPHER EXAMPLE"
 keym = genkey(message)
 cipher_text = enc(message, keym)
-print(cipher_text)
-dec(cipher_text, keym)
+print("Cipher text is: ",cipher_text)
