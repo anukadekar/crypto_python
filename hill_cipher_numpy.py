@@ -3,18 +3,17 @@ import math
 from sympy import Matrix
 
 
-def genkey() :
-    keystr = "GYBNQKURQ"
+def genkey(keystr) :
     l = []
     for i in keystr :
         l.append(ord(i) % 65)
     n = math.sqrt(len(l))
-    if not n.is_integer():
+    if not n.is_integer() :
         print("Matrix should be a square matrix..Enter valid key value")
         exit(0)
     l = numpy.array([l])
     km = l.reshape(int(n), int(n))
-    if numpy.linalg.det(km) ==0:
+    if numpy.linalg.det(km) == 0 :
         print("Matrix must have an inverse")
         exit(0)
     return km
@@ -45,22 +44,22 @@ def enc(msg, keym) :
     return enc
 
 
-
 def dec(cipher_text, keym) :
     inv = Matrix(keym).inv_mod(26)
     inv = numpy.array(inv)
     inv = inv.astype(float)
     dec = numpy.matmul(cipher_text, inv)
     dec = numpy.remainder(dec, 26).flatten()
-    dec = dec.reshape(len(dec),1)
+    dec = dec.reshape(len(dec), 1)
     plain_text = ''
-    for i in dec:
-        plain_text += chr(int(i)+65)
+    for i in dec :
+        plain_text += chr(int(i) + 65)
     print("Plain text is: ", plain_text)
 
 
 message = "THIS IS HILL CIPHER EXAMPLE"
-keym = genkey()
+keystr = "GYBNQKURQ"
+keym = genkey(keystr)
 msg = genmsgmatrix(message, keym)
 cipher_text = enc(msg, keym)
 dec(cipher_text, keym)
