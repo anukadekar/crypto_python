@@ -1,24 +1,24 @@
-Cryptoraphy programs coded in python.
+## Cryptoraphy programs coded in python.
 
-1.Affine cipher
-2.Atbash cipher
-3.Ceaser cipher
-4.Transposition cipher
-5.Hill cipher
-6.Monoalphabetic cipher
-7.Multiplicative cipehr
-8.Reverse cipher
-9.Rot13 cipher
-10.Substitution cipher
-11.XOR cipher
-12.Feistel cipher
-13.Vigenere cipher
-14.Keyword cipher
-15.Baconian cipher
-16.Vernam cipher
+* Affine cipher
+* Atbash cipher
+* Ceaser cipher
+* Transposition cipher
+* Hill cipher
+* Monoalphabetic cipher
+* Multiplicative cipehr
+* Reverse cipher
+* Rot13 cipher
+* Substitution cipher
+* XOR cipher
+* Feistel cipher
+* Vigenere cipher
+* Keyword cipher
+* Baconian cipher
+* Vernam cipher
 
 Reference:
-  https://www.tutorialspoint.com/cryptography_with_python
-  https://www.tutorialspoint.com/cryptography
-  https://www.geeksforgeeks.org/
-  https://sefiks.com/2018/12/04/a-step-by-step-hill-cipher-example/
+  * [Cryptogaphy with python](https://www.tutorialspoint.com/cryptography_with_python)
+  * [Cryptography](https://www.tutorialspoint.com/cryptography)
+  * https://www.geeksforgeeks.org/
+  * https://sefiks.com/2018/12/04/a-step-by-step-hill-cipher-example/
